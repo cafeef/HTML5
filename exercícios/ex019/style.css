@@ -1,0 +1,28 @@
+@charset "UTF-8";
+body {
+    background-image: linear-gradient(to bottom, #f0f8ff, #a8aeb3a4);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1 {
+    color: #888C91;
+}
+h2 {
+    color: #878c91;
+}
+#principal {
+    text-align: center;
+    color: white;
+    background-color: #888C91;
+}
+
+.basico {
+    color: rgb(128, 187, 128);
+}
+
+.intermediario {
+    color: rgb(187, 180, 128);
+}
+
+.avancado {
+    color: rgb(187, 128, 128);
+}
