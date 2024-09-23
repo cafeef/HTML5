@@ -16,6 +16,7 @@ header {
 header h1 {
     color: white;
     font-family: 'Passion One';
+    font-variant: small-caps;
     padding-top: 50px;
     font-size: 10vw;
 }
@@ -47,6 +48,22 @@ section {
 
 section p {
     padding-bottom: 2em;
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(85, 85, 85);
+    color: white;
+}
+
+section.imagem p {
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.30);
+    width: fit-content;
 }
 
 footer {
