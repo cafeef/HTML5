@@ -57,13 +57,26 @@ section.normal {
 
 section.imagem {
     background-color: rgb(85, 85, 85);
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.5);
     color: white;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem p {
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.30);
+    text-shadow: 1px 1px 0px black;
+    background-color: rgba(0, 0, 0, 0.50);
     width: fit-content;
+}
+
+#estrofe-joaninha {
+    background-image: url(imagens/background001.jpg);
+}
+
+#estrofe-cartas {
+    background-image: url(imagens/background002.jpg);
 }
 
 footer {
